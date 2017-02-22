@@ -1,0 +1,141 @@
+.radio-blocks-custom{
+	font-size: 16px;
+	color: #ED1B24;
+}
+
+.no-side-padding-custom{
+	clear: left;
+}
+
+.field-block{
+	padding: 10px 0;
+	position: relative;
+}
+
+.field-area{
+	
+}
+
+.row-block{
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e7e6e6;
+}
+
+.radio > label{
+	position: relative;
+	display: block;
+}
+
+.field-block .radio:hover .radio-label{
+}
+
+.field-block .radio:hover .check {
+  border: 2px solid #ED1B24;
+}
+
+.field-block input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.radio-label{
+	display: block;
+	position: relative;
+	font-weight: 300;
+	font-size: 14px;
+	padding: 0 0 0 60px;
+	margin: 5px auto;
+	height: auto;
+	z-index: 9;
+	cursor: pointer;
+	-webkit-transition: all 0.25s linear;
+}
+
+.check::before {
+  display: block;
+  position: absolute;
+	content: '';
+  border-radius: 100%;
+  	height: 9px;
+    width: 9px;
+    top: 2px;
+    left: 2px;
+  margin: auto;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+}
+
+input[type=radio]:checked ~ .check {
+  border: 2px solid #ED1B24;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #ED1B24;
+}
+
+input[type=radio]:checked ~ label{
+  color: #ED1B24;
+}
+
+.check{
+	display: block;
+	position: absolute;
+	border: 2px solid #AAAAAA;
+	border-radius: 100%;
+	height: 17px;
+	width: 17px;
+	left: 20px;
+	z-index: 5;
+	transition: border .25s linear;
+	-webkit-transition: border .25s linear;
+}
+
+.p-field-sub-text{
+	font-style: italic;
+    opacity: 0.6;
+    padding-left: 20px;
+    display: block;
+
+}
+
+.hide{
+	display: none;
+}
+
+@media only screen and (max-width: 640px) { 
+	.ua-mobile #main{
+		padding: 20px 0;
+		width: 100%; 
+	}
+
+	.fusion-row > div{
+		padding: 0;
+	}
+
+	.field-area{
+		padding: 0;
+	}
+
+	.field-area .form-group-custom{
+		clear: left;
+		margin-bottom: 15px;
+	}
+
+	.radio{
+		clear: left;
+	}
+
+	.row-block{
+		padding: 0;
+		margin: 0;
+		border-bottom: none;
+	}
+} 
+
+/*********************
+TABLET & SMALLER LAPTOPS
+*********************/
+@media only screen and (max-width: 800px) {
+
+}

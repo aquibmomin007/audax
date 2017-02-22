@@ -1,0 +1,25 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+@import url('http://fonts.googleapis.com/css?family=Lato');
+
+.searchform .search-table .search-button input[type=submit] { background-color: #ed1b24; }
+
+.fusion-mobile-menu-icons {
+    margin-top: 5px;
+}
+
+.fusion-secondary-main-menu { background: url(../images/menu-bg.png) bottom right no-repeat; }
+
+#wrapper .fusion-button-round, .fusion-body .fusion-button-round { border-radius: 100px; }
+
+.fusion-body .fusion-button-large { font-size: 20px; color: #fff; }
+
+.fusion-button.button-1 .fusion-button-text, .fusion-button.button-1 i {
+    color: #fff;
+}
+
