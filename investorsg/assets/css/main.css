@@ -1,6 +1,13 @@
 .radio-blocks-custom{
 	font-size: 16px;
-	color: #ED1B24;
+	color: #cd1820;
+}
+
+.modern-p-form .form-label{
+	font-size: 16px;
+	color: #cd1820;
+	font-weight: bold;
+	margin-bottom: 15px;
 }
 
 .no-side-padding-custom{
@@ -12,8 +19,12 @@
 	position: relative;
 }
 
-.field-area{
-	
+.input-block .form-group{
+	padding: 0 15px 0 15px;
+}
+
+.input-block{
+	padding: 30px 0;
 }
 
 .row-block{
@@ -31,7 +42,7 @@
 }
 
 .field-block .radio:hover .check {
-  border: 2px solid #ED1B24;
+  border: 2px solid #cd1820;
 }
 
 .field-block input[type=radio]{
@@ -67,15 +78,15 @@
 }
 
 input[type=radio]:checked ~ .check {
-  border: 2px solid #ED1B24;
+  border: 2px solid #cd1820;
 }
 
 input[type=radio]:checked ~ .check::before{
-  background: #ED1B24;
+  background: #cd1820;
 }
 
 input[type=radio]:checked ~ label{
-  color: #ED1B24;
+  color: #cd1820;
 }
 
 .check{
@@ -103,10 +114,70 @@ input[type=radio]:checked ~ label{
 	display: none;
 }
 
+.option {
+    width: 100% !important;
+    position: absolute !important;
+    max-height: 300px !important;
+    overflow-y: scroll !important;
+}
+
+.modern-p-form .p-field-cb{
+	border-radius: 15px;
+}
+
+.input-block .input-group-icon{
+	border-radius: 15px 0 0 15px;
+}
+
+.input-block .p-addon-bg{
+	border-radius: 0 15px 15px 0; 	
+}
+
+.submit-block{
+	padding: 0 30px;
+}
+
+.modern-p-form .btn.btn-custom-submit{
+	padding: 0px 35px;
+	position: relative;;
+}
+
+.modern-p-form .btn .fa{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+input[type="tel"], input[type="text"], input[type="number"]{
+	text-align: center;
+}
+
+
+
 @media only screen and (max-width: 640px) { 
 	.ua-mobile #main{
 		padding: 20px 0;
 		width: 100%; 
+	}
+
+	.p-label{
+		display: block;
+	    float: left;
+	    width: 80%;
+	}
+
+	.input-block > div > div{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.submit_div .btn-custom-submit{
+		margin: auto;
+	    display: block; 
+	}
+
+	.submit-block .p-check-icon{
+		float: left;
 	}
 
 	.fusion-row > div{

@@ -128,5 +128,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 		 */
 		echo Avada()->settings->get( 'space_body' );
 		?>
+		<script type='text/javascript' src='/wp-content/themes/investorsg/assets/js/custom-main.js'></script>
 	</body>
 </html>

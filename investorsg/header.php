@@ -31,7 +31,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	echo $viewport;
 	?>
 
+
 	<?php wp_head(); ?>
+	<link rel='stylesheet' id='main-stylesheet-css'  href='/wp-content/themes/investorsg/assets/css/bootstrap.min.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='main-stylesheet-css'  href='/wp-content/themes/investorsg/assets/css/main.css' type='text/css' media='all' />
 
 
