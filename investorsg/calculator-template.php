@@ -251,7 +251,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 									<div class="col-sm-12 no-side-padding">
 										<label class="form-label" for="select-show-hide">Current Financer</label>
 									</div>
-									<div class="input-group p-custom-arrow form-group-financer color-scheme-group">
+									<div class="input-group p-custom-arrow form-group-financer color-scheme-group dropdown-block">
 										<div class="dropdown input-group-btn select form-control dropdown-div" id="select1">
 											<button type="button" style="background:white;" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 											<span class="selected selected-custom"><span class="dropdown-span-left">RHB</span><span><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/rhb.png"></span></span></button>
