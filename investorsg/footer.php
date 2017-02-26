@@ -129,6 +129,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		echo Avada()->settings->get( 'space_body' );
 		?>
 
+		<script type='text/javascript' src='/wp-content/themes/investorsg/assets/js/bootstrap.min.js'></script>
 		<?php 
 			$tempName = get_post_meta( $post->ID, '_wp_page_template', true );
 			if($tempName == 'loan-list-template.php'){

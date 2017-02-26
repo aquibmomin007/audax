@@ -259,97 +259,97 @@ if ( ! defined( 'ABSPATH' ) ) {
 													<li value="" class="option-disable"><span>-- Please Select --</span></li>
 													<li data-toggle="dropdown" id="5">
 														<span class="dropdown-span-left">ANZ</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/anz.png" alt="ANZ"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/anz.png" alt="ANZ"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="15">
 														<span class="dropdown-span-left">BEA</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/bea.png" alt="BEA"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/bea.png" alt="BEA"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="13">
 														<span class="dropdown-span-left">BOC</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/boc.png" alt="BOC"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/boc.png" alt="BOC"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="9">
 														<span class="dropdown-span-left">CIMB</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/cimb.png" alt="CIMB"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/cimb.png" alt="CIMB"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="1">
 														<span class="dropdown-span-left">CITI</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/citibank.png" alt="CITI"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/citibank.png" alt="CITI"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="3">
 														<span class="dropdown-span-left">DBS</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/dbs.png" alt="DBS"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/dbs.png" alt="DBS"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="10">
 														<span class="dropdown-span-left">HLF</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/hlf.png" alt="HLF"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/hlf.png" alt="HLF"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="8">
 														<span class="dropdown-span-left">HSBC</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/hsbc.png" alt="HSBC"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/hsbc.png" alt="HSBC"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="6">
 														<span class="dropdown-span-left">MB</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/mbb.png" alt="MB"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/mbb.png" alt="MB"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="16">
 														<span class="dropdown-span-left">NAB </span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/nab.png" alt="NAB "></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/nab.png" alt="NAB "></span>
 													</li>
 
 													<li data-toggle="dropdown" id="7">
 														<span class="dropdown-span-left">OCBC</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/ocbc.png" alt="OCBC"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/ocbc.png" alt="OCBC"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="17">
 														<span class="dropdown-span-left">POSB</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/posb.png" alt="POSB"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/posb.png" alt="POSB"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="14">
 														<span class="dropdown-span-left">RHB</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/rhb.png" alt="RHB"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/rhb.png" alt="RHB"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="18">
 														<span class="dropdown-span-left">SBI</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/sbi.png" alt="SBI"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/sbi.png" alt="SBI"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="4">
 														<span class="dropdown-span-left">SCB</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/scb.png" alt="SCB"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/scb.png" alt="SCB"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="12">
 														<span class="dropdown-span-left">SF</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/Singapura-Finance.png" alt="SF"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/Singapura-Finance.png" alt="SF"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="11">
 														<span class="dropdown-span-left">SIF</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/Sing-Investment.png" alt="SIF"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/Sing-Investment.png" alt="SIF"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="2">
 														<span class="dropdown-span-left">UOB</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/uob.png" alt="UOB"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/uob.png" alt="UOB"></span>
 													</li>
 
 													<li data-toggle="dropdown" id="19">
 														<span class="dropdown-span-left">WESTPAC</span>
-														<span class="dropdown-span-left"><img class="dropdown-img" src="../dist/img/westpac.png" alt="WESTPAC"></span>
+														<span class="dropdown-span-left"><img class="dropdown-img" src="https://mortgage.redbrick.sg/dist/img/westpac.png" alt="WESTPAC"></span>
 													</li>
 
 													<li value="Others">
@@ -369,7 +369,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 										</span>
 										<span class="p-field-cb" style="z-index:-1;"></span>
 										<span class="p-select-arrow p-select-arrow-custom" style="z-index:11;"><i class="fa fa-suitcase"></i></span>
-										<span class="p-select-arrow" style="z-index:11;"><i class="fa fa-caret-down"></i></span>
+										<span class="p-select-arrow dd" style="z-index:11;"><i class="fa fa-caret-down"></i></span>
 
 									</div>
 									<span class="p-field-sub-text text-error"></span>

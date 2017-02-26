@@ -2418,7 +2418,7 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default.focus {
   color: #333333;
   background-color: #d4d4d4;
-  border-color: #8c8c8c;
+  border-color: #cd1820;
 }
 .btn-default:active,
 .btn-default.active,
@@ -7139,7 +7139,7 @@ button.close {
 .modern-p-form .p-file-wrap [type="file"]:hover ~ .input-group .form-control,
 .modern-p-form .sp-input:focus,
 .modern-p-form .sp-input:hover {
-  border-color: #333;
+  border-color: transparent;
 }
 .modern-p-form .form-control:focus ~ .input-group-icon,
 .modern-p-form .form-control:hover ~ .input-group-icon,
@@ -7261,6 +7261,10 @@ button.close {
 .modern-p-form .p-select-arrow {
   width: 44px;
   height: 44px;
+}
+
+.modern-p-form .p-select-arrow.dd{
+  height: 45px;
 }
 .modern-p-form .p-has-icon .form-control {
   padding-left: 56px;

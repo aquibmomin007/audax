@@ -402,7 +402,6 @@
 			
 			//Private Residential
 			$("#property_type_radio-1").click(function(){
-				console.log("dsadsadsadas")
 				document.getElementById("current_property").value = privateChoice;
 				if(default_tab == new_loan_tab){
 					showNewLoanTabForm();
@@ -459,7 +458,7 @@
 		//Update which tab choosed New loan / Refinance
 		function updateTab(tab) {
 			var tab = tab.getAttribute("data-page-type");
-			console.log(tab)
+			
 			document.getElementById("current_tab").value = tab;
 			if(tab == new_loan_tab){
 				default_tab = new_loan_tab;
