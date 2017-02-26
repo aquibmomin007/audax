@@ -657,7 +657,6 @@
 		}
 
 		$('input[type="radio"].update-tab').on('click', function(){
-			console.log($(this)[0])
 			updateTab($(this)[0]);
 		});
 	});

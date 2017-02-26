@@ -180,6 +180,233 @@ input[type="tel"], input[type="text"], input[type="number"]{
 	text-align: center;
 }
 
+.head-block{
+	text-align: center;
+	color: #ffffff;
+}
+
+.loan-head{
+	background-color: #cd1820;
+	padding: 15px 0;
+}
+
+.expand-input > input.form-control{
+	display: none;
+}
+
+.expand-input{
+	width: 30px;
+    position: absolute;
+    right: -24px;
+    top: 0;
+    height: 30px;
+    bottom: 0;
+    margin: auto;
+    color: #cd1820;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #cd1820;
+    border-radius: 0;
+}
+
+.no-side-padding{
+	padding: 0;
+}
+
+.table-data-row{
+	position: relative;
+	padding-right: 30px;
+}
+
+.table-data-row-item{
+	padding: 0;
+}
+
+.input-group-addon-custom {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 12px;
+    height: 18px;
+}
+
+.head-block .glyphicon{
+	margin-left: 10px;
+    top: 2px;
+}
+
+.center-block{
+	margin-top: 15px;
+}
+
+.year-ave, .monthly-ave{
+	clear: left;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.mbm-custom, .list-table-item-rate > label, .list-table-item-pament label{
+    display: none !important;
+}
+
+.list-table-head, .list-table-height, .list-table-content, .checklist{
+	list-style-type: none;
+	padding: 0;
+}
+
+.list-table-head li:first-child, .list-table-height li:first-child{
+	width: 20%;
+}
+
+.list-table-head li, .list-table-height li{
+	width: 40%;
+	float: left;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.list-table-height{
+	padding-top: 10px;
+}
+
+.checklist li{
+	padding-left: 30px;
+	position: relative;
+}
+
+.checklist li:before{
+	content: "\e013";
+	top: 2px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: absolute;
+	left: 5px;
+	color: #cd1820;
+}
+
+.filters-table-content{
+	border-bottom: 1px solid #cecece;
+}
+
+.filters-table-content.package-result-header{
+	border-bottom: none;
+}
+
+
+.row h4{
+	padding: 10px;
+    background: #cd1820;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.summary-box-header{
+	font-weight: bold;
+}
+
+.list-table-head{
+	text-align: center;
+    padding: 0 0 10px;
+    margin: 0;
+    border-bottom: 2px solid #cd1820;
+}
+
+.hidden-md{
+	display: none !important;
+}
+
+.to-top-btn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 50px;
+	right: 50px;
+}
+
+
+/*********************
+TABLET & SMALLER LAPTOPS
+*********************/
+
+
+@media only screen and (max-width: 800px) {
+	.hidden-md{
+		display: none !important;
+	}
+
+	.loan-head .head-block{
+		width: 20%;
+		float: left
+	}
+
+	.logo-block, .center-block{
+		width: 20%;
+		float: left;
+	}
+
+	.expanded .hidden-md, .expanded .hidden-xs{
+		display: block !important;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.hidden-md{
+		display: none !important;
+	}
+
+	.expanded .hidden-md, .expanded .hidden-xs{
+		display: block !important;
+	}
+
+	.logo-block, .center-block{
+		width: 60%;
+	}
+
+	.package-result-div .filters-table-content{
+		padding: 10px 20px;
+	}
+
+	.expand-input{
+		top: 10px;
+		bottom: inherit;
+	}
+
+	.expanded .center-block{
+		width: 50%;
+		float: left;
+	}
+
+	.expanded .sm-table-head + b{
+		font-weight: normal;
+	}
+
+	.expanded .sm-table-head{
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+
+	.list-table-content > li{
+		clear: left;
+	}
+
+	.logo-block{
+		margin: auto;
+		float: none;
+	}
+}
+
 
 @media only screen and (max-width: 640px) { 
 	.ua-mobile #main{
@@ -229,11 +456,6 @@ input[type="tel"], input[type="text"], input[type="number"]{
 		margin: 0;
 		border-bottom: none;
 	}
+
+	
 } 
-
-/*********************
-TABLET & SMALLER LAPTOPS
-*********************/
-@media only screen and (max-width: 800px) {
-
-}

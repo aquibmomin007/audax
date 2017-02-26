@@ -128,6 +128,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 		 */
 		echo Avada()->settings->get( 'space_body' );
 		?>
-		<script type='text/javascript' src='/wp-content/themes/investorsg/assets/js/custom-main.js'></script>
+
+		<?php 
+			$tempName = get_post_meta( $post->ID, '_wp_page_template', true );
+			if($tempName == 'loan-list-template.php'){
+		?>		
+				<script type='text/javascript' src='/wp-content/themes/investorsg/assets/js/custom-main-loan-list.js'></script>
+		<?php
+			}
+			else if($tempName == 'calculator-template.php'){ ?>
+				<script type='text/javascript' src='/wp-content/themes/investorsg/assets/js/custom-main-calculator.js'></script>
+		<?php
+			}
+		?>
+
+		
+		
 	</body>
 </html>
