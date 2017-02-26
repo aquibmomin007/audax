@@ -334,6 +334,41 @@ input[type="tel"], input[type="text"], input[type="number"]{
 	right: 50px;
 }
 
+.no-show-details .glyphicon-expand:before{
+	    content: "\002b";
+}
+
+.show-details .glyphicon-expand:before{
+	    content: "\2212";
+}
+
+.glyphicon-expand:before{
+	    content: "\002b";
+}
+
+.back-btn{
+	width: 100px;
+	margin-bottom: 15px;
+	margin-left: -15px;
+}
+
+.back-btn .package-submit, .back-btn .btn-addon{
+	background-color: #cd1820;
+	color: #ffffff;
+}
+
+.back-btn .btn-addon{
+	padding-right: 5px;
+}
+
+.back-btn .package-submit{
+	border-left: none;
+	padding-left: 0;
+}
+
+.nlf-result-content{
+	clear: left;
+}
 
 /*********************
 TABLET & SMALLER LAPTOPS
@@ -457,5 +492,11 @@ TABLET & SMALLER LAPTOPS
 		border-bottom: none;
 	}
 
+	.back-btn{
+		margin-left: 0px;
+	}
 	
+	.fusion-row > .list-container{
+		padding: 25px 15px;
+	}
 } 

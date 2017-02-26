@@ -442,22 +442,28 @@
 				function updateMoreDetailsButton(btn, btnObj){
 					var value = btn.getAttribute("data-more"),
 						$parentBlock = btnObj.closest('.filters-table-content');
+						$parentBlock.toggleClass('show-details');
+						if($(window).width() < 767){
+							$parentBlock.toggleClass('expanded');
+						}	
 					if(value == "more"){
 						$(btn).find("input").val("");
 						var span = $(btn).find("span")[1];
-						span.setAttribute("class","glyphicon glyphicon-minus")
 						btn.setAttribute("data-more","less");
-						if($(window).width() < 767){
-							$parentBlock.addClass('expanded');
-						}
-					}else{
+						// $parentBlock.addClass('show-details');
+						// $parentBlock.removeClass('no-show-details');
+						// if($(window).width() < 767){
+						// 	$parentBlock.addClass('expanded');
+						// }
+					}else if(value == "less"){
 						$(btn).find("input").val("");
 						var span = $(btn).find("span")[1];
-						span.setAttribute("class","glyphicon glyphicon-plus")
 						btn.setAttribute("data-more","more");
-						if($(window).width() < 767){
-							$parentBlock.removeClass('expanded');
-						}	
+						// $parentBlock.removeClass('show-details');
+						// $parentBlock.addClass('no-show-details');
+						// if($(window).width() < 767){
+						// 	$parentBlock.removeClass('expanded');
+						// }	
 					}
 				}
 
