@@ -665,5 +665,51 @@
 				$('.expand-input').on('click', function(){
 					updateMoreDetailsButton($(this)[0], $(this));
 				});
+
+				var data = [
+				            {
+				                id: "ocbc1",
+				                BankName: "OCBC",
+				                lockIn: "2 years",
+				                rateType: "1-mth SIBOR",
+				                imgUrl: "https://mortgage.redbrick.sg/dist/img/ocbc.png",
+				                interestRate: 10,
+				                featureText: ["Minimum loan: $100,000","With legal subsidy"]
+				            },
+				            {
+				                id: "hsbc1",
+				                BankName: "HSBC",
+				                lockIn: "2 years",
+				                rateType: "1-mth SIBOR",
+				                imgUrl: "https://mortgage.redbrick.sg/dist/img/hsbc.png",
+				                interestRate: 12,
+				                featureText: ["Minimum loan: $1,500,000"]
+				            },
+				            {
+				                id: "citi1",
+				                BankName: "CITI",
+				                lockIn: "2 years",
+				                rateType: "1-mth SIBOR",
+				                imgUrl: "https://mortgage.redbrick.sg/dist/img/citibank.png",
+				            	interestRate: 15,
+				            	featureText: ["Minimum loan: $1,500,000","With legal subsidy"]
+				            }
+
+
+				        ];
+
+				var source = $("#document-template").html(),
+					template = Handlebars.compile(source),
+					formatData = [], html;
+					$.each(data, function(index, itemObj){
+						itemObj.amount = itemObj.interestRate * 100;
+						formatData.push(itemObj);
+					});
+
+					console.log(formatData);
+
+					html = template(formatData);
+					$('#sort-container').html(html);
+
 		});
 }(jQuery));				

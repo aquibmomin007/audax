@@ -130,6 +130,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		?>
 
 		<script type='text/javascript' src='/wp-content/themes/investorsg/assets/js/bootstrap.min.js'></script>
+		<script type='text/javascript' src='/wp-content/themes/investorsg/assets/js/handlebars.js'></script>
 		<?php 
 			$tempName = get_post_meta( $post->ID, '_wp_page_template', true );
 			if($tempName == 'loan-list-template.php'){
